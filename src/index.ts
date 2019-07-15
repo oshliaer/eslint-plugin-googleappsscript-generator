@@ -1,7 +1,5 @@
 import { Generator, EnvironmentCatcher } from './Generator';
 import extensions from './Extensions';
-// import { checker } from './Extensions/excluder';
-// import { getLog } from './Extensions/excluder';
 
 function generateToFile() {}
 
