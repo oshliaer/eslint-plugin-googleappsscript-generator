@@ -1,0 +1,32 @@
+{
+  "name": "eslint-plugin-googleappsscript-generator",
+  "version": "1.0.0",
+  "description": "The generator of codes for https://github.com/selectnull/eslint-plugin-googleappsscript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "reset:manifest": "cat ./assets/reset_appsscript.json > ./src/appsscript.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oshliaer/eslint-plugin-googleappsscript-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oshliaer/eslint-plugin-googleappsscript-generator/issues"
+  },
+  "homepage": "https://github.com/oshliaer/eslint-plugin-googleappsscript-generator#readme",
+  "devDependencies": {
+    "@google/clasp": "^2.2.1",
+    "@types/google-apps-script": "0.0.54",
+    "eslint": "^6.0.1",
+    "eslint-config-google": "^0.13.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-googleappsscript": "^1.0.2",
+    "eslint-plugin-prettier": "^3.1.0",
+    "prettier": "^1.18.2"
+  },
+  "dependencies": {}
+}
